@@ -1,4 +1,5 @@
 # customer-segmentation-rfm
+![Tests](https://github.com/Imaneimy/customer-segmentation-rfm/actions/workflows/tests.yml/badge.svg)
 
 Customer segmentation was one of the recurring questions at Orange Maroc — understanding which customers drove the most revenue, which ones were becoming inactive, and where to focus retention efforts. The answers lived in Power BI dashboards, but the underlying logic (recency, frequency, spend) was never formalized. This project does that: a full RFM pipeline from raw transactions to labeled segments, with K-Means clustering on top to let the data decide the groupings rather than using arbitrary score thresholds.
 
